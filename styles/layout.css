@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+	grid-template-areas: 
+  "title title"
+  "ad1   ad1"
+  "ad2   ad2"
+  "ad3   ad3"
+  "ad4   ad4";
+
+}
+
+.header{
+	grid-area: title;
+		background-color: ;
+		padding: 1em;
+
+}
+
+
+.ad1{
+	grid-area: ad1;
+      color: white;
+    	background-color: grey;
+    	padding: 1em;
+      text-align: center;
+      border-radius: 5px;
+
+      border: 5px solid white;
+      
+
+}
+
+.ad2{
+	grid-area: ad2;
+	    background-color: grey;
+    	padding: 1em;
+      text-align: center;
+      /*border: 3px solid grey;*/
+      border-radius: 5px;
+      
+
+      
+}
+
+.ad3{
+	grid-area: ad3;
+      background-color: grey;
+      padding: 1em;
+      text-align: center;
+      
+      border-radius: 5px;
+      
+}
+
+.ad4{
+  grid-area: ad4;
+      background-color: grey;
+      padding: 1em;
+      text-align: center;
+      
+      border-radius: 5px;
+      
+}
+
+.foot{
+  display: none;
+  background-color: ;
+	grid-area: foot;
+  color: black;
+
+}
+
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+@media only screen and (min-width: 601px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "title title"
+        "ad1   ad2"
+        "ad3   ad4"; 
+  }
+
+
+@media only screen and (min-width: 1020px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "title title title"
+        "ad1   ad1   ad1"
+        "ad2   ad3   ad4"; 
+  }
+
+
+
+
+

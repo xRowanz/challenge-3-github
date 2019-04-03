@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<title>Challenge 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/layout.css">
+
+</head>
+
+<body>
+        <!--Header----------------------------->
+		<header class="grid-item header">
+			<img class="logo" src="./img/spacex.png" width="400" height="50">
+			
+		</div>
+		</header>
+		<!--Header----------------------------->
+
+		
+		<!--Side------------------------------->
+		<aside class="grid-item ad1">
+			<h1>Een nieuw begin op aarde!!</h1>
+			<br>
+			<h4>Omdat we weer op aarde gaan landen heb je een nieuwe identiteit en een locatie nodig om te gaan wonen. <br> Refresh de pagina tot dat je tevreden bent met je nieuwe identiteit.</h4>
+			<br>
+			<h5>Check gelijk of het lekker weer is waar je gaat wonen.</h5>
+		</aside>
+
+		<aside class="grid-item ad2">
+			<h1>Identiteit</h1>
+			<br>
+			<article id="identiteit"></article>
+			<br>
+			<h5>Dit is je nieuwe identiteit.</h5>
+
+		</aside>
+
+		<aside class="grid-item ad3">
+			<h1>Locatie</h1>
+			<br>
+			<article id="locatie"></article>
+			<br>
+			<h5>Dit is je nieuwe adres.</h5>
+
+		</aside>
+
+		<aside class="grid-item ad4">
+			<h1>Weer</h1>
+			<br>
+			<form>
+			<fieldset>
+				<legend>Get current weather</legend>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" />
+				<input type="button" id="getWeather" value="get current weather" />
+			</fieldset>
+		</form>
+			<article id="weather"></article>
+
+		</aside>
+
+		<!--Side------------------------------->
+
+		
+		<script src="./scripts/weather.js"></script>
+		
+		<script src="./scripts/location.js"></script>
+		<script src="./scripts/data.js"></script>
+	
+</body>
+</html>
